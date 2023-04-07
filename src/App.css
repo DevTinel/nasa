@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: unset;
+  text-decoration: none;
+}
+.App {
+  width: 100%;
+}
+.borda {
+  border-bottom: 3px solid #fff !important;
+  padding-bottom: 10px !important;
+}
+.fff {
+  background-color: #fff;
+  display: block;
+}

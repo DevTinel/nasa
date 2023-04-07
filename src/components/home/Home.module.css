@@ -1,0 +1,91 @@
+.containerHome {
+  background-image: url("../../assets/home/background-home-desktop.jpg");
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 300px;
+  padding-top: 300px;
+}
+.containerHome img {
+  width: 100%;
+}
+.containerHome h1 {
+  font-family: "Cinzel", serif;
+  font-family: "Barlow Condensed", sans-serif;
+  letter-spacing: 6px;
+  font-size: 28px;
+  font-weight: 100;
+  color: #d0d6f9 !important;
+}
+.containerHome h1 span {
+  font-size: 10rem;
+  display: block;
+  margin: 5px 0;
+  font-weight: 100;
+  font-family: "Bellefair", serif;
+  color: #fff;
+}
+.containerHome p {
+  font-family: "Barlow", sans-serif;
+  width: 444px;
+  text-align: left;
+  font-size: 18px;
+  color: #d0d6f9;
+  line-height: 2;
+}
+.explore {
+  width: 300px;
+  height: 300px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  text-align: center;
+}
+.explore p {
+  display: flex;
+  font-size: 32px;
+  color: #000;
+  font-family: "Bellefair", serif;
+  justify-content: center;
+}
+a {
+  border: none;
+}
+
+@media (max-width: 1300px) {
+  .containerHome {
+    background-image: url("../../assets/home/background-home-tablet.jpg");
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+  }
+  .containerHome p {
+    font-family: "Barlow", sans-serif;
+    width: 444px;
+    text-align: center;
+    font-size: 18px;
+    color: #d0d6f9;
+    line-height: 2;
+  }
+  .containerHome h1 {
+    font-size: 16px;
+    text-align: center;
+  }
+  .explore {
+    margin-top: 100px;
+    margin-bottom: 200px;
+  }
+  .explore p {
+    font-size: 2.5rem;
+    color: #000;
+    font-family: "Cinzel", serif;
+    justify-content: center;
+  }
+}
